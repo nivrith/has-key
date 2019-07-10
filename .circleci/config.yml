@@ -38,7 +38,7 @@ jobs:
 
 workflows:
   version: 2
-  "has-key":
+  "key-exists":
     jobs:
       - node-latest
       - node-10

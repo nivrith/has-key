@@ -1,14 +1,14 @@
 {
-  "name": "has-key",
+  "name": "key-exists",
   "version": "0.1.0",
   "description": "Check if object has property, super fast",
   "main": "dist/index.js",
-  "repository": "https://github.com/nivrith/has-key",
+  "repository": "https://github.com/nivrith/key-exists",
   "author": "Nivrith <nivrithgomatam@gmail.com>",
   "license": "MIT",
   "keywords": [
     "hasOwn",
-    "has-key",
+    "key-exists",
     "object-property",
     "array-index",
     "object-key",

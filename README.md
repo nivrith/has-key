@@ -1,9 +1,9 @@
-# has-key
+# key-exists
 
-[![CircleCI](https://circleci.com/gh/nivrith/has-key/tree/master.svg?style=svg)](https://circleci.com/gh/nivrith/has-key/tree/master)
-[![NPM Downloads](https://img.shields.io/npm/dw/has-key.svg)](https://www.npmjs.com/package/has-key)
-[![node](https://img.shields.io/node/v/has-key.svg)](https://www.npmjs.com/package/has-key)
-[![License MIT](https://img.shields.io/github/license/nivrith/has-key.svg)](https://github.com/nivrith/has-key/blob/master/LICENSE)
+[![CircleCI](https://circleci.com/gh/nivrith/key-exists/tree/master.svg?style=svg)](https://circleci.com/gh/nivrith/key-exists/tree/master)
+[![NPM Downloads](https://img.shields.io/npm/dw/key-exists.svg)](https://www.npmjs.com/package/key-exists)
+[![node](https://img.shields.io/node/v/key-exists.svg)](https://www.npmjs.com/package/key-exists)
+[![License MIT](https://img.shields.io/github/license/nivrith/key-exists.svg)](https://github.com/nivrith/key-exists/blob/master/LICENSE)
 
 Check if Object has Property, super fast
 
@@ -19,15 +19,15 @@ Check if Object has Property, super fast
 
 ```js
 
-import hasKey from 'has-key';
+import keyExists from 'key-exists';
 
 const greet = {
   hello: 'world',
   bonjour: 'le monde'
   };
 
-hasKey(greet, 'hello'); // true
-hasKey(greet, 'bye'); // false
+keyExists(greet, 'hello'); // true
+keyExists(greet, 'bye'); // false
 
 ```
 
