@@ -22,7 +22,7 @@
     "pretest": "npm run compile",
     "clean": "del-cli dist",
     "docs": "typedoc src",
-    "release": "npm run clean && npx np"
+    "release": "npm run compile && npx np"
   },
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
