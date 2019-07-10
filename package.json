@@ -2,7 +2,7 @@
   "name": "has-key",
   "version": "0.1.0",
   "description": "Check if object has property, super fast",
-  "main": "dist/src",
+  "main": "dist/index.js",
   "repository": "https://github.com/nivrith/has-key",
   "author": "Nivrith <nivrithgomatam@gmail.com>",
   "license": "MIT",
@@ -21,7 +21,8 @@
     "prepublishOnly": "npm run compile",
     "pretest": "npm run compile",
     "clean": "del-cli dist",
-    "docs": "typedoc src"
+    "docs": "typedoc src",
+    "release": "npm run clean && npx np"
   },
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
@@ -35,7 +36,7 @@
     "check-coverage": true
   },
   "files": [
-    "dist/src"
+    "dist"
   ],
   "dependencies": {},
   "engines": {
@@ -48,6 +49,7 @@
     "chai": "^4.2.0",
     "del-cli": "^2.0.0",
     "mocha": "^6.1.4",
+    "np": "^5.0.3",
     "nyc": "^14.1.1",
     "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
