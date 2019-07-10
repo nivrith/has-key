@@ -1,6 +1,6 @@
 {
   "name": "key-exists",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Check if object has property, super fast",
   "main": "dist/index.js",
   "repository": "https://github.com/nivrith/key-exists",
