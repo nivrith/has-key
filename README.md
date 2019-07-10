@@ -15,8 +15,6 @@ Check if Object has Property, super fast
 
 ## Usage
 
-> Get an array of common unique values that are included in all given arrays
-
 ```js
 
 import keyExists from 'key-exists';
